@@ -32,12 +32,9 @@ function App() {
         ceremony will start at 18:00.
       </Text>
       <Text>
-        <b>Where:</b> Tivoli Gardens, Kopenhagen, in the small pavilion with the
-        golden roof by the lake.
-      </Text>
-      <Text>
-        <b>How:</b> We will be married by the lake in Tivoli Gardens. The
-        ceremony will be followed by a reception in a restaurant.
+        <b>How:</b> We will be married in the small pavilion with the golden
+        roof by the lake in Tivoli Gardens. The ceremony will be followed by a
+        reception in a restaurant.
       </Text>
 
       <Image src={location} />
