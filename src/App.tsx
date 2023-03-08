@@ -22,7 +22,8 @@ function App() {
         </Text>
         <Text>
           Our tickets can be used from when Tivoli opens in the morning until
-          Tivoli closes.
+          Tivoli closes. We have two spare tickets, so several guests will have
+          to buy their own tickets.
         </Text>
       </Alert>
       <Text>
