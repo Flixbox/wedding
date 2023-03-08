@@ -54,7 +54,7 @@ function App() {
       <br />
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.8801595794034!2d12.565953052158612!3d55.6736840804367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531280f6eaf3%3A0xd9b50b0db50b27b0!2sTivoli%20Gardens!5e0!3m2!1sen!2sde!4v1678298454261!5m2!1sen!2sde"
-        width="600"
+        width="100%"
         height="450"
         loading="lazy"
       ></iframe>
