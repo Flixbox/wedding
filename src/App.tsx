@@ -2,6 +2,7 @@ import { Text, Title, Image, Alert } from "@mantine/core";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import Flag from "react-world-flags";
 import location from "./assets/location.jpg";
+import prag from "./assets/prag.jpg";
 
 function App() {
   return (
@@ -57,6 +58,13 @@ function App() {
         title="Tivoli Gardens"
         noCookie={true}
       />
+      <br />
+      <br />
+      <br />
+      <Text>
+        Lots of love, <br /> Felix & Shorna
+      </Text>
+      <Image src={prag} />
     </section>
   );
 }
