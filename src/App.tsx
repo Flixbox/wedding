@@ -52,7 +52,16 @@ function App() {
         You're free to come and go as you please, and we will have a celebration
         on Sunday. There's enough beds for everyone to stay overnight on several
         days and you're all invited to do so.
+        <br />
+        You can easily take the train there from Kopenhagen.
       </Text>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.1485876056104!2d12.366060219869006!3d55.60675886669586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465257b9f9e42627%3A0x52af315163dc380a!2sStrandvangen%20Guesthouse!5e0!3m2!1sen!2sde!4v1678663309415!5m2!1sen!2sde"
+        width="100%"
+        height="450"
+        loading="lazy"
+      ></iframe>
       <br />
       <Divider />
       <Title order={2}>Tivoli Gardens</Title>
