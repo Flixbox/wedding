@@ -39,7 +39,21 @@ function App() {
         <b>Celebration:</b> We will celebrate in <b>Strandvangen Guesthouse</b>{" "}
         on Sunday.
       </Text>
-
+      <br />
+      <Divider />
+      <Title order={2}>Strandvangen Guesthouse</Title>
+      <Text>
+        <b>Arrival:</b> 2023-05-03 around 16:00
+      </Text>
+      <Text>
+        <b>Departure:</b> 2023-05-08 around 10:00
+      </Text>
+      <Text>
+        You're free to come and go as you please, and we will have a celebration
+        on Sunday. There's enough beds for everyone to stay overnight on several
+        days and you're all invited to do so.
+      </Text>
+      <br />
       <Divider />
       <Title order={2}>Tivoli Gardens</Title>
       <Image src={location} />
@@ -67,19 +81,6 @@ function App() {
         noCookie={true}
       />
       <br />
-      <Divider />
-      <Title order={2}>Strandvangen Guesthouse</Title>
-      <Text>
-        <b>Arrival:</b> 2023-05-03 around 16:00
-      </Text>
-      <Text>
-        <b>Departure:</b> 2023-05-08 around 10:00
-      </Text>
-      <Text>
-        You're free to come and go as you please, and we will have a celebration
-        on Sunday. There's enough beds for everyone to stay overnight on several
-        days and everyone is invited to do so.
-      </Text>
       <br />
       <br />
       <Text>
