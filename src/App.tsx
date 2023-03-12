@@ -50,8 +50,7 @@ function App() {
       </Text>
       <Text>
         You're free to come and go as you please, and we will have a celebration
-        on Sunday. There's enough beds for everyone to stay overnight on several
-        days and you're all invited to do so.
+        on Sunday.
         <br />
         You can easily take the train there from Kopenhagen.
       </Text>
