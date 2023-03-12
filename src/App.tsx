@@ -1,4 +1,4 @@
-import { Text, Title, Image, Alert } from "@mantine/core";
+import { Text, Title, Image, Alert, Divider } from "@mantine/core";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import Flag from "react-world-flags";
 import location from "./assets/location.jpg";
@@ -33,12 +33,16 @@ function App() {
       </Text>
       <Text>
         <b>How:</b> We will be married in the small pavilion with the golden
-        roof by the lake in Tivoli Gardens. The ceremony will be followed by a
-        reception in a restaurant.
+        roof by the lake in <b>Tivoli Gardens</b>.
+      </Text>
+      <Text>
+        <b>Celebration:</b> We will celebrate in <b>Strandvangen Guesthouse</b>{" "}
+        on Sunday.
       </Text>
 
+      <Divider />
+      <Title order={2}>Tivoli Gardens on Saturday</Title>
       <Image src={location} />
-      <Title order={2}>About Tivoli Gardens</Title>
       <a href="https://www.tivoli.dk/">Tivoli Gardens Official Website</a>
       <br />
       <a href="https://www.visitdenmark.de/daenemark/erlebnisse/sehenswuerdigkeiten/tivoli-kopenhagen">
@@ -63,6 +67,8 @@ function App() {
         noCookie={true}
       />
       <br />
+      <Divider />
+      <Title order={2}>Strandvangen Guesthouse on Sunday</Title>
       <br />
       <br />
       <Text>
