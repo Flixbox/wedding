@@ -41,7 +41,7 @@ function App() {
       </Text>
 
       <Divider />
-      <Title order={2}>Tivoli Gardens on Saturday</Title>
+      <Title order={2}>Tivoli Gardens</Title>
       <Image src={location} />
       <a href="https://www.tivoli.dk/">Tivoli Gardens Official Website</a>
       <br />
@@ -68,7 +68,18 @@ function App() {
       />
       <br />
       <Divider />
-      <Title order={2}>Strandvangen Guesthouse on Sunday</Title>
+      <Title order={2}>Strandvangen Guesthouse</Title>
+      <Text>
+        <b>Arrival:</b> 2023-05-03 around 16:00
+      </Text>
+      <Text>
+        <b>Departure:</b> 2023-05-08 around 10:00
+      </Text>
+      <Text>
+        You're free to come and go as you please, and we will have a celebration
+        on Sunday. There's enough beds for everyone to stay overnight on several
+        days and everyone is invited to do so.
+      </Text>
       <br />
       <br />
       <Text>
